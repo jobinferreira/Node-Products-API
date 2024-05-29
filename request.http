@@ -1,0 +1,39 @@
+GET http://localhost:3000/api/products
+
+
+###
+
+
+GET http://localhost:3000/api/products/6654e64c9e30a2c50dc0f3fa
+
+
+###
+
+
+POST http://localhost:3000/api/products
+content-type: application/json
+
+{
+    "name": "juice",
+    "quantity": 7,
+    "price": 39
+}
+
+
+###
+
+
+PUT http://localhost:3000/api/products/6657483f55c6b895f40078f6
+content-type: application/json
+
+{
+    "name": "Edited",
+    "quantity": 10,
+    "price": 12
+}
+
+
+###
+
+
+DELETE http://localhost:3000/api/products/6657483f55c6b895f40078f6
